@@ -1,0 +1,22 @@
+<div>
+    <ul>
+        <li style="margin-left:1px;font-size:x-small;"><img src="assets/call.jpg"  width="30" height="10"> +91 XXXXXXXXXX | +91 XXXXXXXXXX  </li>
+        <li style="margin-left:7px;font-size:x-small;"><img src="assets/message.png"  width="30" height="10"> reactiveproductstore@ibm.com</li>
+        <li style="margin-left:9px;font-size:x-small;"><img src="assets/location.jpg"  width="30" height="10">location</li>
+        <a (click)="logout()">  <li style="float:right"><img src="assets/Logout.png"  width="40" height="20"> </li></a>
+    </ul> 
+</div>
+<div class=header style="border-bottom: 1px solid lightgray;border-top:1px solid lightgray;">
+    <img src="assets/ibmpos_blue.png"  width="90" height="50" style="margin-left:10px ;"> 
+</div>
+<div class=confirm> 
+  <button style="float:right" (click) = 'audit()'>Audit</button>  
+<!-- <a style="float:right" href="/orderdetails" (click) ='audit()'>Audit</a>      -->
+<img src="assets/ibmpos_blue.png"  width="30" height="20">    
+<h3 style="margin-left: 85px;margin-top:15%;color: blueviolet;">Confirm Order</h3>
+<label style="margin-left: 85px;margin-top:20%;color: blueviolet;">Product Name: </label>
+<label >{{prodName}}</label>
+<br><br>
+<button style="float: right;margin-right: 185px;margin-top:12%;"(click) = 'confirm()'>Confirm</button>
+<br><br>
+</div>

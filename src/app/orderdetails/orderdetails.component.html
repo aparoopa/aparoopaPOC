@@ -1,0 +1,46 @@
+ <!-- <div>  
+    <img src="assets/ibm.png"  width="50" height="50">    
+    <h3 style="margin-left: 85px">Order Details</h3>
+    <table *ngFor="let order of (orderlist |slice: -1)">
+        <tr>
+            <td>
+                <label >Order State</label>
+                <label style="margin-left: 10px;"> {{order.orderState}}</label>
+            </td>
+            <br><br>
+            <td>
+                <label >Order ID</label>
+                <label style="margin-left: 10px;"> {{order.orderId}}</label>
+            </td>
+            
+        </tr>
+        <br><br>
+    </table> -
+</div> -->
+
+   
+<div>  
+    <img src="assets/ibmpos_blue.png"  width="30" height="20">    
+    <h3 style="margin-left: 115px;color: blueviolet;">Order Details</h3>
+    <table *ngFor="let order of (orderlist |slice: -1)">
+        <tr>
+            <td>
+                <label style="margin-left: 115px;color: blueviolet;" >Order ID : </label>
+                <label style="margin-left: 10px;color: blueviolet;"> {{order.orderId}}</label>
+                <br><br>
+                <label style="margin-left: 115px;color: blueviolet;" >Order Desc : </label>
+                <label style="margin-left: 10px;color: blueviolet;"> {{order.orderDesc}}</label>
+                <br><br>
+                <label  style="margin-left: 115px;color: blueviolet;" >Order State : </label>
+                <label style="margin-left: 10px;color: blueviolet;"> {{order.orderState}}</label>
+                <br><br>
+                <label  style="margin-left: 115px;color: blueviolet;" >Timestamp : </label>
+                <label style="margin-left: 10px;color: blueviolet;"> {{order.currentTime}}</label>
+                </td>           
+        </tr>       
+    </table> 
+    <br><br>
+    <button  (click)='back()' style="margin-left: 25px;width:80%;"> Back to previous page </button>
+    <br><br>
+    </div>
+    

@@ -5,10 +5,9 @@ div{
     margin-top: 10%;
     margin-bottom: 10%;
     width: 30%;
+    background-color: whitesmoke;
+    border-color: honeydew;
 }
 button{
-    background-color: gray;
-}
-html{
-    background-color:  lightgreen;
+    background-color:lightblue;
 }

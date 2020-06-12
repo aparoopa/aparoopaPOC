@@ -1,0 +1,43 @@
+.prodscroll{
+    border-style: solid;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 30%;
+    background-color: whitesmoke;
+    
+}
+button{
+    background-color:lightblue;
+}
+table{
+  border: 1px solid black;
+    table-layout: fixed;
+  width: 100%;
+  border-collapse: separate;
+   
+
+  
+}
+td, th {
+    text-align: left;
+    border: 1px solid transparent;
+    border-collapse: collapse;
+    
+    
+  }
+  tr{
+    display: grid;
+  }
+  li {
+    display: inline;
+    
+}
+td:nth-child(2) {
+  padding-right: 20px;
+}​
+.side{
+  display: inline;
+}
+

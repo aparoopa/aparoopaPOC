@@ -1,0 +1,19 @@
+.confirm{
+    border-style: solid;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 30%;
+    height: 40%;
+    background-color: lightblue;
+}
+button{
+    
+        background-color:lightblue;
+    
+}
+li {
+    display: inline;
+    
+}

@@ -1,0 +1,17 @@
+
+<div class="w3-container" *ngIf = 'logged'>
+  <img src="assets/ibmpos_blue.png"  width="30" height="20">  
+    <h3 style="margin-left: 25px;color: blueviolet;"> Login</h3>
+    <label style="margin-left: 25px;color: blueviolet;">User ID</label>
+    <br>
+    <input type="text" id="uname" style="margin-left: 25px;width: 80%"  [(ngModel)]='clientID'>
+    <br><br>
+    <label style="margin-left: 25px;color: blueviolet;">Password</label>
+    <br>
+    <input type="password" id="pwd" style="margin-left: 25px;width: 80%;color: blueviolet;" [(ngModel)]='clientSecret'>
+    <br><br>
+    <button (click)='login()' style="margin-left: 25px;width:80%;"> Login</button>
+    <br><br>
+    <button (click)='register()' style="margin-left: 25px;width:80%;">Register</button>
+  </div>
+
